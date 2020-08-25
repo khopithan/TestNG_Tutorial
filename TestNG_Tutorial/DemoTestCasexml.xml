@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="firstSuite" verbose="2" parallel="methods" thread-count="2">
+
+	<listeners>
+		<listener class-name="testNG.ListenersExample"/>
+	</listeners>
+	
+
+	<test name="firstTest">
+	
+	
+
+		
+		<classes>
+			
+			<class name="testNG.SampleTestCase"/>
+			
+		</classes>
+	</test>
+</suite>
+
+
+		<!-- <parameter name="Name" value="Helen"></parameter> -->
+
+
+		<!-- <groups>
+			<run>
+				<include name="Vivo"/>
+				<include name="Lenova"/>
+			</run>
+		</groups> -->
+
+
+
+
+			<!-- <class name="testNG.DependanciesManagement"/>
+			<class name="testNG.Drive_a_car"/>
+			<class name="testNG.SampleTestCase"/>
+			<class name="testNG.Skip_a_testCase"/> -->
